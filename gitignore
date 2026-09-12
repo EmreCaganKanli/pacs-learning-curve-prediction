@@ -1,0 +1,34 @@
+# Dataset
+data/
+
+# Generated model checkpoints
+*.pth
+outputs/source_models/
+outputs/adapted_models/
+
+# Per-run training histories and diagnostic plots
+outputs/source_histories/
+outputs/adaptation_histories/
+outputs/source_plots/
+outputs/adaptation_plots/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
